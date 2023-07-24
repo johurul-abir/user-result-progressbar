@@ -1,0 +1,99 @@
+/* google fonts import link  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.user-box{
+    margin-top: 50px;
+}
+
+.box input{
+    width: 100%;
+    border: 1px solid skyblue;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+
+
+.result-box{
+    margin-top: 80px;
+}
+.result-box input{
+    width: 100%;
+    border: 1px solid skyblue;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+
+.result-box button{
+    margin-bottom: 10px;
+    padding: 5px 15px;
+    background: rgb(6, 180, 249);
+    border: 2px solid rgb(6, 180, 249);
+    color: white;
+    cursor: pointer;
+    margin: 0;
+}
+
+
+.listarea{
+    margin-left: 20px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.card-body{
+    box-sizing: border-box;
+
+}
+.result-show img{
+    width: 100%;
+    display:none;
+}
+.prograssbar{
+    margin-top: 80px;
+
+}
+.prograssbar-show{
+    height: 16px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 20px;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    
+}
+.prograssbar .bar{
+background-color: blueviolet;
+height: 10px;
+border-radius: 15px;
+width:0;
+position: absolute;
+top:2px;
+z-index: 2;
+transition: 1s;
+
+
+}
+
+.prograssbar input{
+    width: 100%;
+    border: 1px solid skyblue;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+#showTime{
+    font-size: 100px;
+    font-weight: 600;
+    color: blueviolet;
+}
